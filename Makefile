@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 GO := GO15VENDOREXPERIMENT=1 go
-NAME := REPLACE_ME_APP_NAME
+NAME := prueba-gokit-quickstart
 OS := $(shell uname)
 MAIN_GO := /users/cmd/main.go
 ROOT_PACKAGE := $(GIT_PROVIDER)/$(ORG)/$(NAME)
